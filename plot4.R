@@ -31,7 +31,7 @@ legend("topright",legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),c
 axis(side=1, at=c(1,chg_day,2880), labels=c("Thu","Fri","Sat"))
 
 
-plot(df$Global_reactive_power,type = "l",ylab = "Global_Reactive_Power",xlab="",xaxt = "n")
+plot(df$Global_reactive_power,type = "l",ylab = "Global_Reactive_Power",xlab="datetime",xaxt = "n")
 axis(side=1, at=c(1,chg_day,2880), labels=c("Thu","Fri","Sat"))
 
 dev.off()
